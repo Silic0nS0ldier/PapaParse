@@ -1,16 +1,16 @@
 import { terser } from "rollup-plugin-terser";
 
 export default {
-	input: 'lib/papaparse.mjs',
+	input: 'papaparse.mjs',
 	output: [
 		{
 			name: 'Papa',
-			file: 'lib/papaparse.umd.js',
+			file: 'papaparse.umd.js',
 			format: 'umd'
 		},
 		{
 			name: 'Papa',
-			file: 'lib/papaparse.umd.min.js',
+			file: 'papaparse.umd.min.js',
 			format: 'umd',
 			plugins: [terser()]
 		}

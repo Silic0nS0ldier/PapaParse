@@ -34,11 +34,11 @@
 		"url": "https://twitter.com/mholt6"
 	},
 	"license": "MIT",
-	"main": "./lib/papaparse.umd.js",
-	"browser": "./lib/papaparse.umd.min.js",
+	"main": "./papaparse.umd.js",
+	"browser": "./papaparse.umd.min.js",
 	"exports": {
-		"import": "./lib/papaparse.mjs",
-		"require": "./lib/papaparse.umd.js"
+		"import": "./papaparse.mjs",
+		"require": "./papaparse.umd.js"
 	},
 	"devDependencies": {
 		"chai": "^4.3.4",
@@ -53,7 +53,7 @@
 	},
 	"scripts": {
 		"build": "rollup -c rollup.config.mjs",
-		"lint": "eslint --no-ignore lib/papaparse.mjs .eslintrc.js 'tests/**/*.js'",
+		"lint": "eslint --no-ignore papaparse.mjs .eslintrc.js 'tests/**/*.js'",
 		"test-browser": "node tests/test.js",
 		"test-mocha-headless-chrome": "node tests/test.js --mocha-headless-chrome",
 		"test-node": "mocha tests/node-tests.js tests/test-cases.js",
