@@ -34,11 +34,11 @@
 		"url": "https://twitter.com/mholt6"
 	},
 	"license": "MIT",
-	"main": "./papaparse.umd.js",
-	"browser": "./papaparse.umd.min.js",
+	"main": "./papaparse.js",
+	"browser": "./papaparse.min.js",
 	"exports": {
 		"import": "./papaparse.mjs",
-		"require": "./papaparse.umd.js"
+		"require": "./papaparse.js"
 	},
 	"devDependencies": {
 		"chai": "^4.3.4",

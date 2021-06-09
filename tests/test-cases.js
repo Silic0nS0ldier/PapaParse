@@ -2,7 +2,7 @@ var chai;
 var Papa;
 if (typeof module !== 'undefined' && module.exports) {
 	chai = require('chai');
-	Papa = require('../papaparse.umd.js');
+	Papa = require('../papaparse.js');
 }
 
 var assert = chai.assert;

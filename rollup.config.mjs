@@ -5,12 +5,12 @@ export default {
 	output: [
 		{
 			name: 'Papa',
-			file: 'papaparse.umd.js',
+			file: 'papaparse.js',
 			format: 'umd'
 		},
 		{
 			name: 'Papa',
-			file: 'papaparse.umd.min.js',
+			file: 'papaparse.min.js',
 			format: 'umd',
 			plugins: [terser()]
 		}

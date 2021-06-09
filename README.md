@@ -26,7 +26,7 @@ can be installed with the following command:
 
     npm install papaparse
 
-If you don't want to use npm, [papaparse.umd.min.js](https://unpkg.com/papaparse@latest/papaparse.umd.min.js) can be downloaded to your project source.
+If you don't want to use npm, [papaparse.min.js](https://unpkg.com/papaparse@latest/papaparse.min.js) can be downloaded to your project source.
 
 
 Homepage & Demo

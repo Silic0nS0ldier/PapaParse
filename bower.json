@@ -1,6 +1,6 @@
 {
 	"name": "papaparse",
-	"main": "papaparse.umd.js",
+	"main": "papaparse.js",
 	"homepage": "http://papaparse.com",
 	"authors": [
 		"Matthew Holt"

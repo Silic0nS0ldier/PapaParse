@@ -1,6 +1,6 @@
 "use strict";
 
-var Papa = require("../papaparse.umd.js");
+var Papa = require("../papaparse.js");
 
 var fs = require('fs');
 var assert = require('assert');
